@@ -44,11 +44,11 @@ def parse_args():
     """Parse arguments."""
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        'split_config', type=str, help='The split config for image slicing.')
+        '--split_config', type=str, help='The split config for image slicing.')
     parser.add_argument(
-        'data_root', type=str, help='Root dir of DOTA dataset.')
+        '--data_root', type=str, help='Root dir of DOTA dataset.')
     parser.add_argument(
-        'out_dir', type=str, help='Output dir for split result.')
+        '--out_dir', type=str, help='Output dir for split result.')
     parser.add_argument(
         '--ann-subdir',
         default='labelTxt-v1.0',
