@@ -182,6 +182,8 @@ TODO
 
 ```bash
 python tools/train.py configs/rtmdet/rotated/rtmdet-r_s_fast_1xb8-36e_dota.py
+python tools/test.py configs/rtmdet/rotated/rtmdet-r_s_fast_1xb8-36e_dota.py work_dirs/rtmdet-r_s_fast_1xb8-36e_dota/epoch_36.pth --show-dir show_results
+python tools/train.py configs/rtmdet/rotated/rtmdet-r_l_syncbn_fast_2xb4-36e_dota.py
 ```
 
 #### YOLOv8
